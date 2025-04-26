@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Quadro Simulado - Zeppelin Systems</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    .board {
+      display: flex;
+      gap: 20px;
+      overflow-x: auto;
+      padding: 20px 0;
+    }
+    .column {
+      background: #e0e7ff;
+      border-radius: 10px;
+      padding: 15px;
+      width: 250px;
+      min-height: 300px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .column h2 {
+      font-size: 16px;
+      color: #1e3a8a;
+      margin-bottom: 10px;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Quadro de Levantamento de Requisitos - Zeppelin Systems</h1>
+  <div class="board">
+    <div class="column">
+      <h2>🛠 Problemas encontrados</h2>
+      <div class="card">Falta de histórico centralizado das manutenções</div>
+      <div class="card">Informações dispersas entre setores</div>
+      <div class="card">Dificuldade para localizar ordens antigas</div>
+    </div>
+    <div class="column">
+      <h2>💡 Sugestões dos colaboradores</h2>
+      <div class="card">Criar um painel visual de O.S.</div>
+      <div class="card">Acesso remoto para técnicos externos</div>
+      <div class="card">Checklist digital integrado</div>
+    </div>
+    <div class="column">
+      <h2>📋 Requisitos funcionais do sistema</h2>
+      <div class="card">Cadastro de equipamentos e técnicos</div>
+      <div class="card">Criação e edição de O.S.</div>
+      <div class="card">Rastreamento de histórico por equipamento</div>
+    </div>
+    <div class="column">
+      <h2>✅ Funcionalidades essenciais</h2>
+      <div class="card">Alertas de manutenção preventiva</div>
+      <div class="card">Painel de status das ordens</div>
+      <div class="card">Relatórios exportáveis em Excel</div>
+    </div>
+  </div>
+</body>
+</html>
